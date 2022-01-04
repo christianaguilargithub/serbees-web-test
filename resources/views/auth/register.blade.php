@@ -9,7 +9,7 @@
 
 <x-guest-layout>
     <div class="registration-form-container">
-        <div class="registration-form-body">
+        <form action="" class="registration-form-body">
             <div class="registration-form-content">
                 <div class="registration-title-container">
                     <p class="registration-title">Service Provider Registration Form</p>
@@ -89,10 +89,10 @@
                         By signing in, you agree and accept our <a class="terms-and-conditions-link" href="#    " target="_blank">terms and conditions</a>
                     </label>
                     <div>
-                    <button class=submitButton>Submit</button>
+                    <button class="submitButton">Submit</button>
                     </div>
                 </div>
             </div>
-        </div>
+        </form>
     </div>
 </x-guest-layout>

@@ -27,6 +27,7 @@ Route::get('/booking-covid-test', 'App\Http\Controllers\PagesController@bookingC
 Route::get('/booking-covid-test2', 'App\Http\Controllers\PagesController@bookingCovidTest2')->name('booking-covid-test2');
 Route::get('/booking-covid-test3', 'App\Http\Controllers\PagesController@bookingCovidTest3')->name('booking-covid-test3');
 Route::get('/services', 'App\Http\Controllers\PagesController@services')->name('services');
+Route::get('/profile-client', 'App\Http\Controllers\PagesController@profileClient')->name('profile-client');
 
 
 Route::get('/', HomeController::class)->name('home');

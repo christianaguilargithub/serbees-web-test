@@ -37,5 +37,7 @@ class PagesController extends Controller
         return view('pages.services');
     }
 
-
+    public function profileClient(){
+        return view('pages.profile-client');
+    }
 }

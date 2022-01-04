@@ -41,7 +41,7 @@
         text-align: center;
     }
     .registration-title{
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 550;
         color: #1E90FF;
         margin-top: 20px;
@@ -94,8 +94,9 @@
        
     }
     .name-label2{
-        font-size: 12px;
+        font-size:16px;
         color: #1E90FF;
+        font-weight:750;
     }
     .referral{
         font-family: Roboto;

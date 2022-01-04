@@ -32,7 +32,7 @@
                                         "{{asset('images/apple-logo.png')}}"
                                         width="20" height="17">  IOS Serbees Provider App</li>
                                         <div style="border-bottom:2px solid grey;margin-top:3px"></div>
-                                    <li class="dropdown-item" >
+                                    <li class="dropdown-item" style="cursor:pointer">
                                         <img src=
                                         "{{asset('images/google-logo.png')}}"
                                         width="20" height="15">  Android Serbees Provider App</li>
