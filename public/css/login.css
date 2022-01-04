@@ -1,0 +1,43 @@
+@font-face {font-family: "COCOGOOSE"; 
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot"); 
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") 
+  format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") 
+  format("woff2"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") 
+  format("woff"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") 
+  format("truetype"), url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg"); } 
+
+.login-form-container{
+  font-family: Cocogoose;
+  width: 350px;
+  height:450px;
+  border-top-right-radius: 25px;
+  border-top-left-radius:5px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius:5px;
+  text-align: center;
+  color: #4e4d49;
+  background: rgba(223, 220, 214, 0.5);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background-image: url("/images/booking-mobile.png"); /* The image used */
+    
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: center;
+  
+}
+.login-form-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.login-input{
+  border-radius: 4px;
+        border: 1px solid #C4C4C4;
+        height: 40px;
+}

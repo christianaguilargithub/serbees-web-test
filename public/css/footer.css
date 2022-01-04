@@ -1,0 +1,476 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* footer menu part */
+.footer-top{
+    width:100%;
+    height: 100%;
+    background: #FEC128;
+}
+.social{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.serbees-description{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+.footer-top-logo-description{
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    width: 322px;
+    margin-left: 40px;
+}
+.serbees-grey-logo{
+    width: 148.94px;
+    height: 50px;
+    margin-top: 20px;
+}
+.footer-menu-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.allignment{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.landingmenu2{
+    list-style-type:none;
+}
+.a{
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+.divider{
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 140px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border:  1px solid #FF9625;
+}
+.orange{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FF8400;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.serbee{
+    display: block;
+}
+/* footer menu part */
+/* Copyright part */
+.footer-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+    text-decoration: none;
+    background: #FF9D01;
+    height: 50px;
+    width: 100%;
+}
+.terms-privacy{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    flex-direction: row;
+}
+.copyright{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 100px;
+}
+.terms-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+.terms-text2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    margin-right: 200px;
+}
+
+/* Copyright part */
+
+
+
+
+@media (max-width: 320px) {
+    .divider{
+        display: none;
+        position: absolute;
+    }
+    .serbee{
+        position: absolute;
+        display: none;
+    }
+    .footer-menu-container{
+        flex-direction: column;
+    }
+    .footer-top{
+        width:100%;
+        height: 450px;
+        background: #FEC128;
+    }
+    .serbees-description{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+    }
+    .footer-menu-container{
+        flex-direction: column;
+    }
+    .allignment{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer-top-logo-description{
+        font-family: Roboto;
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        text-align: start;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 0px;
+    }
+    .landingmenu2{
+        margin-left: auto;
+        margin-right: auto; 
+        padding: 0; 
+    }
+    .orange{
+        margin-top: 20px;
+    }
+    .footer-bottom{
+        align-content: center;
+        height: 70px;
+        flex-direction: column-reverse;
+    }
+    .terms-privacy{
+        margin: 0;
+        margin-bottom: 10px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .terms-text{
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+    .terms-text2{
+        margin-left: 30px;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+    .copyright{
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 360px) {
+    .divider{
+        display: none;
+        position: absolute;
+    }
+    .serbee{
+        position: absolute;
+        display: none;
+    }
+    .footer-menu-container{
+        flex-direction: column;
+    }
+    .footer-top{
+        width:100%;
+        height: 400px;
+        background: #FEC128;
+    }
+    .serbees-description{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+    }
+    .footer-menu-container{
+        flex-direction: column;
+    }
+    .allignment{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer-top-logo-description{
+        font-family: Roboto;
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: start;
+    }
+    .landingmenu2{
+        margin-left: auto;
+        margin-right: auto; 
+        padding: 0; 
+    }
+    .orange{
+        margin-top: 20px;
+    }
+    .footer-bottom{
+        align-content: center;
+        flex-direction: column-reverse;
+        height: 70px;
+    }
+    .terms-privacy{
+        margin: 0;
+        margin-bottom: 10px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .terms-text{
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+    .terms-text2{
+        margin-left: 30px;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+    .copyright{
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width: 375px) {
+    .divider{
+        display: none;
+        position: absolute;
+    }
+    .serbee{
+        position: absolute;
+        display: none;
+    }
+    .footer-menu-container{
+        flex-direction: column;
+    }
+    .footer-top{
+        width:100%;
+        height: 500px;
+        background: #FEC128;
+    }
+    .serbees-description{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+    }
+    .footer-menu-container{
+        flex-direction: column;
+    }
+    .allignment{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer-top-logo-description{
+        font-family: Roboto;
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: start;
+    }
+    .landingmenu2{
+        margin-left: auto;
+        margin-right: auto; 
+        padding: 0; 
+    }
+    .orange{
+        margin-top: 20px;
+    }
+    .footer-bottom{
+        align-content: center;
+        flex-direction: column-reverse;
+        height: 70px;
+    }
+    .terms-privacy{
+        margin: 0;
+        margin-bottom: 10px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .terms-text{
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+    .terms-text2{
+        margin-left: 30px;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+    .copyright{
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width: 414px) {
+    .divider{
+        display: none;
+        position: absolute;
+    }
+    .serbee{
+        position: absolute;
+        display: none;
+    }
+    .footer-menu-container{
+        flex-direction: column;
+    }
+    .footer-top{
+        width:100%;
+        height: 550px;
+        background: #FEC128;
+    }
+    .serbees-description{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+    }
+    .footer-menu-container{
+        flex-direction: column;
+    }
+    .allignment{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer-top-logo-description{
+        font-family: Roboto;
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: start;
+    }
+    .landingmenu2{
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0; 
+    }
+    .orange{
+        margin-top: 20px;
+    }
+    .footer-bottom{
+        height: 70px;
+        align-content: center;
+        flex-direction: column-reverse;
+    }
+    
+    .terms-privacy{
+        margin: 0;
+        margin-bottom: 10px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+    }
+    .terms-text{
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+    .terms-text2{
+        margin-left: 30px;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+    .copyright{
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

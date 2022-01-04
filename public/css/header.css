@@ -1,0 +1,144 @@
+@media only screen and (max-width: 950px){
+.main-nav{
+    display:none
+}
+.burger-top{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FEC128;
+}
+.landinglogo-burger{
+    width: 130px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 0px;
+}
+    .landinglogo-serbees{
+        width: 148.37px;
+        height: 50px;
+        margin-bottom: 20px;
+       
+        margin-left: 10px;
+    }
+.overlay {
+        height: 0%;
+        width: 100%;
+        position: fixed;
+        z-index: 2000;
+        top: 0;
+        left: 0;
+        background-color: #ff9625;
+        background-image: linear-gradient(147deg, #ff9625 2%, #ff9625 11%, #ffc130 67%, #ff9966 100%);
+        overflow-y: hidden;
+        transition: 0.5s;
+}
+.overlay-content {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay a {
+    font-family: Roboto;
+    padding: 1.2rem;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2c2a2a;
+    display: block;
+    transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+.overlay .closebtn {
+    position: absolute;
+    top: 0px;
+    right: 3px;
+    font-size: 50px;
+}.register-provider-btn{
+    margin-top: .6em;
+    font-size: 1em;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:azure;
+    background-color: black;
+    border-radius: 10px;
+}
+.register-provider-btn:hover{
+    color:rgb(20, 19, 19);
+    background-image: linear-gradient(147deg, #dad8d5 2%, #e2e0dc 11%, #bdbbb6 67%, #ddd6d3 100%);
+    cursor: pointer;
+    font-weight: 800;
+}
+}
+
+@media only screen and (min-width: 950px){
+    .burger{
+        display: none;
+    }
+    .sign{
+        border-bottom: 3px solid #1E90FF;
+    }
+    .myHeader{
+        padding-top: 2%;
+        background-color: #FEC128;
+    }
+    .landinglogo-serbees{
+        width: 148.37px;
+        height: 20px;
+        margin-bottom: 20px;
+        padding-left: 15%;
+        margin-left: 10%;
+    }
+    .myNavbar{
+    width: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    }
+    .landingmenu{
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        justify-content: space-evenly;
+        padding-left: 40px;
+    }
+    .landingmenu button:hover{
+        color:rgb(54, 0, 0);
+        background-image: linear-gradient(147deg, #dad8d5 2%, #e2e0dc 11%, #bdbbb6 67%, #ddd6d3 100%);
+        cursor: pointer;
+        font-weight: 300;
+    }
+    li{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: .4em;
+        padding: .4rem 1.2rem 0rem 1.2rem;
+        font-size: 0.900rem;
+        font-weight: 500;
+        color: #1F2937;
+        text-decoration: none;
+    }
+    a{
+        text-decoration: none;
+        color:white;
+    }
+    .aa{
+        font-family: Roboto;
+        text-decoration: none;
+        color:white;
+    }
+    a:hover{
+        color:#1E90FF;
+        cursor: pointer;
+        font-weight: 800;
+    }
+    .navmenu{
+        display: flex;
+        flex-direction: row;
+        padding-right: 3%;
+    }
+
+}
