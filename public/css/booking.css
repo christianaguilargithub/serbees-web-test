@@ -8,7 +8,6 @@
         justify-content: center;
         width: 100%;
         background-color: #FEC128;
-        
     }
     .booking-form-body{
         display: flex;
@@ -22,7 +21,6 @@
         background-size: 100% 100%;
         background-repeat: no-repeat;
         background-position: stretch;
-        
     }
     .booking-form-content{
         display: flex;
