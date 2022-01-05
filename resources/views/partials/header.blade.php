@@ -57,6 +57,10 @@
         <div class="b1">
             <img class="landinglogo-burger" src="{{ asset('images/white-logo.png') }}">
         </div>
+        <div class="mobile-sign">
+            
+        
+            <a class="mobile-sign-text" href="{{ route('login.index') }}">SIGN IN</a>
         <div class="b2" onclick="openNav()"style="padding-top:20px;padding-right:20px;font-weight:600;cursor: pointer;">
                     <span style="font-size: 1.2rem;font-weight: 700;"
                     >&#9776;</span>
@@ -72,5 +76,6 @@
             <a onclick="closeNav()" href="./#faq">FAQ</a>
             <a onclick="closeNav()" href="{{ route('register.index') }}">BE A PROVIDER</a>
         </div>
+    </div>
     </div>
 </div>
