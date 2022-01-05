@@ -65,7 +65,7 @@
   
     }
     .sign{
-        margin-top: 0px;
+        
         border-bottom: 3px solid #1E90FF;
     }
 .search-service{
@@ -142,8 +142,7 @@
 }
 .btn-dl:active{
     cursor: pointer;
-    background-color: trans
-    parent;
+    background-color: transparent;
 }
 
 .dl-logo{
