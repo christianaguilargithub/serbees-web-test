@@ -1,0 +1,250 @@
+/* Desktop */
+@media only screen and (min-width: 951px){
+    .sign{
+        border-bottom: 3px solid #1E90FF;
+    }
+    .registration-form-container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-color: #FEC128;
+    }
+    .registration-form-body{
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        height: auto;
+        background: rgb(250, 239, 210);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        border-top-right-radius: 25px;
+        border-top-left-radius:3px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius:3px;
+        background-image: url("/images/registration-bg.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: stretch;
+    }
+    .registration-form-content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        
+    }
+    .registration-title-container{
+        font-family: Roboto;
+        text-align: center;
+    }
+    .registration-title{
+        font-size: 20px;
+        font-weight: 550;
+        color: #1E90FF;
+        margin-top: 20px;
+    }
+    .registration-title-desc{
+        font-size:11px;
+        font-weight: 400;
+        color: black;
+        margin-top: 20px;
+    }
+    .separator{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: 1px solid grey;
+        margin-bottom: 20px;
+    }
+    .name-label{
+        font-family: Roboto;
+        font-weight: 550;
+        color: #6A6A6A;
+
+    }
+    .name-inputs-containers{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .name-inputs, .date-input{
+        width: 32%;
+        margin-right: 1.5%;
+    }
+    .input-border{
+        border-radius: 4px;
+        border: 1px solid #C4C4C4;
+        margin-top:10px;
+        margin-bottom: 10px;
+        height: 50px;
+    }
+    .gender-input{
+        width: 32%;
+    }
+    .address-inputs-container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .detailed-address-input{
+        width: 66%;
+       
+    }
+    .name-label2{
+        font-size:16px;
+        color: #1E90FF;
+        font-weight:750;
+    }
+    .referral{
+        font-family: Roboto;
+        font-size: 11px;
+    }
+    .referral-input{
+        width: 100%;
+    }
+    .terms-and-conditions-link{
+        color: #26BEFE;
+    }
+    .submitButton{
+        background: #FEC128;
+        border-radius: 4px;
+        width: 300px;
+        height: 50px;
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 30px;
+        margin-bottom:30px ;
+    }
+    
+    }
+/* Mobile */
+@media only screen and (max-width: 950px){
+    .registration-form-container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding-top: 40px;
+        background-color: #FEC128;
+    }
+    .registration-form-body{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        height: auto;
+        background: rgb(250, 239, 210);
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        border-top-right-radius: 25px;
+        border-top-left-radius:3px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius:3px;
+        background-image: url("/images/registration-bg-mobile.png");
+        background-size: 100% 101%;
+        background-position: stretch;
+    }
+    .registration-form-content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 95%;
+        height: auto;
+    }
+    .registration-title-container{
+        font-family: Roboto;
+        text-align: center;
+    }
+    .registration-title{
+        font-size: 14px;
+        font-weight: 550;
+        color: #1E90FF;
+        margin-top: 20px;
+    }
+    .registration-title-desc{
+        font-size:11px;
+        font-weight: 400;
+        color: black;
+        margin-top: 20px;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .separator{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: 1px solid grey;
+        margin-bottom: 20px;
+    }
+
+    .name-label{
+        color: #6A6A6A;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 10px;
+    }
+    .input-border{
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 4px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 50px;
+        margin-top: 10px;
+    }
+    .custom-file-label{
+        font-size: 11px;
+    }
+    .custom-file-input{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .name-label2{
+        font-size: 14px;
+        font-weight: 550;
+        color: #1E90FF;
+        margin-top: 20px;
+    }
+    .terms-and-conditions-link{
+        font-family: Roboto;
+    }
+    .terms-and-conditions{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        margin-top: 10px;
+    }
+    .submitButton{
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        width: 100%;
+        height: 50px;
+        background: #FEC128;
+        border-radius: 4px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .name-inputs-containers{
+        display: flex;
+        flex-direction: column;
+    }
+    }
