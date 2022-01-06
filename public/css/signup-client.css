@@ -3,16 +3,16 @@
     .sign{
         border-bottom: 3px solid #1E90FF;
     }
-    .registration-form-container{
+    .signup-client-form-container{
         display: flex;
         justify-content: center;
         width: 100%;
         background-color: #FEC128;
     }
-    .registration-form-body{
+    .signup-client-form-body{
         display: flex;
         justify-content: center;
-        width: 70%;
+        width: 30%;
         height: auto;
         background: rgb(250, 239, 210);
         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -28,7 +28,7 @@
         background-repeat: no-repeat;
         background-position: stretch;
     }
-    .registration-form-content{
+    .signup-client-form-content{
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -36,17 +36,17 @@
         height: auto;
         
     }
-    .registration-title-container{
+    .signup-client-title-container{
         font-family: Roboto;
         text-align: center;
     }
-    .registration-title{
+    .signup-client-title{
         font-size: 20px;
         font-weight: 550;
         color: #1E90FF;
         margin-top: 20px;
     }
-    .registration-title-desc{
+    .signup-client-title-desc{
         font-size:11px;
         font-weight: 400;
         color: black;
@@ -126,14 +126,14 @@
     }
 /* Mobile */
 @media only screen and (max-width: 950px){
-    .registration-form-container{
+    .signup-client-form-container{
         display: flex;
         justify-content: center;
         width: 100%;
         padding-top: 40px;
         background-color: #FEC128;
     }
-    .registration-form-body{
+    .signup-client-form-body{
         display: flex;
         justify-content: center;
         width: 90%;
@@ -151,24 +151,24 @@
         background-size: 100% 101%;
         background-position: stretch;
     }
-    .registration-form-content{
+    .signup-client-form-content{
         display: flex;
         justify-content: center;
         flex-direction: column;
         width: 95%;
         height: auto;
     }
-    .registration-title-container{
+    .signup-client-title-container{
         font-family: Roboto;
         text-align: center;
     }
-    .registration-title{
+    .signup-client-title{
         font-size: 14px;
         font-weight: 550;
         color: #1E90FF;
         margin-top: 20px;
     }
-    .registration-title-desc{
+    .signup-client-title-desc{
         font-size:11px;
         font-weight: 400;
         color: black;

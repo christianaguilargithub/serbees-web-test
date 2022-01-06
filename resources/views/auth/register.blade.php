@@ -34,7 +34,7 @@
                         <input type="text" id="gender" placeholder="  Gender" class="gender-input input-border">
                     </div>
                     <div class="name-label">
-                        Enter your adress
+                        Enter your address
                     </div>
                     <div class="address-inputs-container">
                         <input type="text" id="region" placeholder="  Region" class="name-inputs input-border">
