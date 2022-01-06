@@ -26,6 +26,10 @@
                 backdrop-filter: blur( 4px );
                 -webkit-backdrop-filter: blur( 4px ); margin-left:auto;margin-right:auto;">
                 <br>
+                <input type="button" name="log" id="log" value="Sign Up" style="width: 150px;font-family:roboto; border-radius:10px;color:white;background-color:#FEC128;box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                backdrop-filter: blur( 4px );
+                -webkit-backdrop-filter: blur( 4px ); margin-left:auto;margin-right:auto;">
+                <br>
                 <span style="font-family: Roboto; font-weight:700"><input type="checkbox" id="check">
                 Remember me</span>
                 <br>
