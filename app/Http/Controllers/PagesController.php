@@ -24,7 +24,7 @@ class PagesController extends Controller
     public function bookingCovidTest(){
         return view('pages.booking-covid-test');
     }
-      public function bookingCovidTest2(){
+    public function bookingCovidTest2(){
         return view('pages.booking-covid-test2');
     }
     public function bookingCovidTest3(){
@@ -36,8 +36,10 @@ class PagesController extends Controller
     public function services(){
         return view('pages.services');
     }
-
     public function profileClient(){
         return view('pages.profile-client');
+    }
+    public function signupClient(){
+        return view('pages.signup-client');
     }
 }
