@@ -140,15 +140,15 @@
         height: auto;
         background: rgb(250, 239, 210);
         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 4px );
-        -webkit-backdrop-filter: blur( 4px );
+        backdrop-filter: blur( 0px );
+        -webkit-backdrop-filter: blur( 0px );
         border: 1px solid rgba( 255, 255, 255, 0.18 );
         border-top-right-radius: 25px;
         border-top-left-radius:3px;
         border-bottom-left-radius: 25px;
         border-bottom-right-radius:3px;
         background-image: url("/images/registration-bg-mobile.png");
-        background-size: 100% 101%;
+        background-size: 100% 270%;
         background-position: stretch;
     }
     .signup-client-form-content{
