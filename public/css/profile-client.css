@@ -7,3 +7,43 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
+.profile-account-content{
+    height: 550px;
+    width: 300px;
+    background-color: aliceblue;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: solid 3px #fcd36c;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+}
+.profile-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.profile-content{
+    font-family: roboto;
+    height: 550px;
+    width: 800px;
+    background-color: #fce3a5;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 8px 0 32px  rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+}
+.profile-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+    border: solid 3px #FEC128 ;
+   
+}
+.profile-buttons{
+    background-color: none;
+}
