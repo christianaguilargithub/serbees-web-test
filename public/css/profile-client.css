@@ -10,15 +10,19 @@
 .profile-account-content{
     height: 550px;
     width: 300px;
+    display: flex;
+    justify-content: center;
     background-color: aliceblue;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-right: solid 3px #fcd36c;
-    display: flex;
-    justify-content: center;
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-        backdrop-filter: blur( 4px );
-        -webkit-backdrop-filter: blur( 4px );
+    
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter: blur(13px) saturate(117%);
+    -webkit-backdrop-filter: blur(13px) saturate(117%);
+    background-color: rgba(255, 255, 255, 0.88);
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    
 }
 .profile-container{
     display: flex;
@@ -29,13 +33,26 @@
     font-family: roboto;
     height: 550px;
     width: 800px;
-    background-color: #fce3a5;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    box-shadow: 8px 0 32px  rgba( 31, 38, 135, 0.37 );
+    /* 
         backdrop-filter: blur( 4px );
-        -webkit-backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px ); */
+    /* From https://css.glass  hex #FDEEC730*/
+    background: rgba(253, 238, 199, 0.19);
+    
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    border: 1px solid rgba(253, 238, 199, 0.43);
+
+
+
+    backdrop-filter: blur(13px) saturate(117%);
+    -webkit-backdrop-filter: blur(13px) saturate(117%);
+    background-color: rgba(255, 255, 255, 0.44);
+    border: 1px solid rgba(209, 213, 219, 0.3);
 }
+
 .profile-image{
     width: 150px;
     height: 150px;
@@ -45,5 +62,36 @@
    
 }
 .profile-buttons{
-    background-color: none;
+    height: auto;
+    border: 0;
+    background: transparent;
+ 
 }
+.profile-menu-bar{
+    width: 100%;
+    background-color: #5097c1;
+    border-top-right-radius: 20px;
+}
+
+
+.profile-card {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 20%;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.service-logo{
+    z-index: 1002;
+    width:60px;
+    height:60px;
+    margin-top:8px
+  }
+  .service-logo2{
+    z-index: 1002;
+    width:50px;
+    height:50px;
+    margin-top:12px;
+    margin-left:3px;
+  }
