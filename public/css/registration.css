@@ -34,7 +34,6 @@
         flex-direction: column;
         width: 90%;
         height: auto;
-        
     }
     .registration-title-container{
         font-family: Roboto;
@@ -63,7 +62,6 @@
         font-family: Roboto;
         font-weight: 550;
         color: #6A6A6A;
-
     }
     .name-inputs-containers{
         display: flex;
@@ -91,7 +89,6 @@
     }
     .detailed-address-input{
         width: 66%;
-       
     }
     .name-label2{
         font-size:16px;
@@ -122,7 +119,6 @@
         margin-top: 30px;
         margin-bottom:30px ;
     }
-    
     }
 /* Mobile */
 @media only screen and (max-width: 950px){
@@ -184,7 +180,6 @@
         border-bottom: 1px solid grey;
         margin-bottom: 20px;
     }
-
     .name-label{
         color: #6A6A6A;
         font-family: Roboto;
