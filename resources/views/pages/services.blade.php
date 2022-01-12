@@ -126,7 +126,6 @@
             damaged aircon components upon approval from costumers.
           </p>
         </a>
-     
     
         <a href="#" class="card human-resources">
           <div class="overlay-service"></div>
@@ -140,8 +139,6 @@
                 creative grooming services such as coloring the pet's fur and painting the pet's nails.
               </p>
         </a>
-     
-     
     </div>
   </div>
   <div class="top-page-services">
