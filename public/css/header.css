@@ -17,7 +17,6 @@
         width: 148.37px;
         height: 50px;
         margin-bottom: 20px;
-       
         margin-left: 10px;
     }
 .overlay {
@@ -75,7 +74,6 @@
 .mobile-sign{
     display: flex;
     flex-direction: row;
-    
 }
 .mobile-sign-text{
     text-decoration: none;
