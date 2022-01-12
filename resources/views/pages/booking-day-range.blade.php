@@ -72,8 +72,6 @@
                 </div>
         </div>
     </div>
-
-
 <div class="booking-form-container">
     <form class="booking-form-body" action="POST">
         <div class="booking-form-content">
@@ -195,7 +193,6 @@
             </div>
         </div>
     </form>
-  
 </div>
 
 <div class="footer-container">
