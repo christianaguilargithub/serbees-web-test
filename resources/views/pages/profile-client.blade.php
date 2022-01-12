@@ -1,7 +1,7 @@
 @section('styles')
     <link rel="stylesheet" href="{{ asset('css/homepage.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('css/profile-client.css') }}" type="text/css">
- 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 @endsection
 
 <x-guest-layout>
@@ -11,6 +11,12 @@
         <div class="profile-container">
             <div class="profile-account-content">
                 <img class="profile-image" src="{{ asset('images/squid.jpg') }}" alt="">
+                <div class="profile-account-info">
+                    <span class="profile-info"><i class="far fa-user" style="margin-right: 10px"></i>Michael Kim</span>
+                    <span class="profile-info"><i class="fas fa-map-marker-alt" style="margin-right: 10px"></i>721 Bukahyeon-dong, Seodaemun-gu, Seoul, South Korea</span>
+                    <span class="profile-info"><i class="far fa-envelope" style="margin-right: 10px"></i>MichaelKim@email.com</span>
+                </div>
+                <button class="editProfileButton">Edit Profile</button>
             </div>
             <div class="profile-content">
                 <div class="profile-menu-bar">
@@ -35,6 +41,9 @@
                                 <span class="fs-6 fw-bolder">$40</span>
                             </div>
                             <div class="col text-end">
+                                <span class="fs-6 fw-bolder">Service Rating</span>
+                            </div>
+                            <div class="col text-end">
                                 <span class="fs-6 fw-bolder">Pending</span>
                             </div>
                         </div>
@@ -54,6 +63,14 @@
                             </div>
                             <div class="col text-end">
                                 <span class="fs-6 fw-bolder">$58</span>
+                            </div>
+                            <div class="col text-end" >
+                                Service Rating<br>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
                             </div>
                             <div class="col text-end">
                                 <span class="fs-6 fw-bolder">Completed</span>
