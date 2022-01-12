@@ -20,7 +20,6 @@
                                     DOWNLOAD NOW
                                 </button>
                                 <li>
-
                                 </li>
                                 <ul class="dropdown-menu" 
                                     aria-labelledby="dropdownMenuButton">
@@ -73,7 +72,6 @@
                 </div>
         </div>
     </div>
-
 
 <div class="booking-form-container">
     <form class="booking-form-body" action="POST">
