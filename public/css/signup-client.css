@@ -122,7 +122,6 @@
         margin-top: 30px;
         margin-bottom:30px ;
     }
-    
     }
 /* Mobile */
 @media only screen and (max-width: 950px){
@@ -184,7 +183,6 @@
         border-bottom: 1px solid grey;
         margin-bottom: 20px;
     }
-
     .name-label{
         color: #6A6A6A;
         font-family: Roboto;
