@@ -28,7 +28,10 @@
     justify-content: center;
     flex-direction: row;
 }
-.profile-content{
+.profile-content-mobile{
+    display: none;
+}
+.profile-content-desktop{
     font-family: roboto;
     height: 550px;
     width: 800px;
@@ -76,7 +79,6 @@
     height: auto;
     border: 0;
     background: transparent;
- 
 }
 .profile-menu-bar{
     width: 100%;
@@ -111,7 +113,7 @@
     color: orange;
   }
 
-  .editProfileButton{
+  .editProfileButton-desktop{
     background: #FEC128;
     border-radius: 4px;
     width: 120px;
@@ -127,11 +129,82 @@
     margin-left: auto;
     margin-right: auto;
 }
+.profile-menu-bar-mobile{
+    display: none;
+}
 @media only screen and (max-width: 950px){
+    .profile-content-desktop{
+        display: none;
+    }
+    .profile-content-mobile{
+        display: block;
+    }
+    .profile-buttons-mobile{
+        display: flex;
+        justify-content: space-evenly;
+        width: 90px;
+        flex-direction: row;
+    }
+    .profile-menu-bar-mobile{
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .profile-info-name{
+        margin-top:40px;
+    }.editProfileButton-desktop{
+        display: none;
+    }
+    .profile-card-mobile {
+        backdrop-filter: blur(3px) saturate(138%);
+    -webkit-backdrop-filter: blur(3px) saturate(138%);
+    background-color: rgba(254, 193, 40, 0.37);
+        border-radius: 20%;
+        border: 1px solid rgba(209, 213, 219, 0.3);
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .profile-notif-btn{
+        width: 100px;
+        height: 35px;
+    }
+    .editProfileButton-mobile{
+        background: #FEC128;
+        width: 80px;
+        height: 35px;
+        
+        /* background: #FEC128;
+        border-radius: 4px;
+        width: 200px;
+        height: 35px;
+        color: #FFFFFF;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        
+        line-height: 19px;
+        margin-top: 30px;
+        margin-bottom:30px ;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom:10px ; */
+    }
+    .profile-image{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        border: solid 3px #FEC128 ;
+    }
     .top-page{
         background-color: #FEC128 ;
-        height: 1200px;
-        padding-top: 50px;
+        height: auto;
+        padding-top: 0px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -144,7 +217,7 @@
     }
 
     .profile-account-content{
-        height: 550px;
+        height: auto;
         width: 90%;
         display: flex;
         flex-direction: column;
@@ -152,7 +225,6 @@
         border-radius: 20px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -90px;
         border-right: solid 3px #fcd36c;
         /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
         backdrop-filter: blur(13px) saturate(117%);
