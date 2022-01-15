@@ -85,8 +85,7 @@
             @else
             @php $logo = 'service-logo' @endphp
             @endif
-
-
+            
             <a href="#" class="card {{ $class }}">
                 <div class="overlay-service"></div>
                 <div class="circle">
