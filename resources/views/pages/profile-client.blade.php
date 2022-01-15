@@ -10,7 +10,6 @@
             <div class="profile-account-content">
                 <img class="profile-image" src="{{ asset('images/squid.jpg') }}" alt="">
                 <div class="profile-account-info">
-                    
                     <span class="profile-info "><i class="far fa-user" style="margin-right: 10px"></i>Michael Kim</span>
                     <span class="profile-info"><i class="fas fa-map-marker-alt" style="margin-right: 10px"></i>721 Bukahyeon-dong, Seodaemun-gu, Seoul, South Korea</span>
                     <span class="profile-info"><i class="far fa-envelope" style="margin-right: 10px"></i>MichaelKim@email.com</span>
@@ -94,7 +93,6 @@
                                 <div class="col text-end">
                                     <span class="fs-6 fw-bolder">$1,834</span>
                                 </div>
-                                
                             </div>
                             <div class="col text-center">
                                 <span class="fs-6 fw-bolder"><button class="btn btn-success profile-notif-btn" style="margin-left: -40px">Accept</button><button class="btn btn-danger profile-notif-btn" style="margin-left: 20px">Decline</button></span>
@@ -103,7 +101,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="profile-content-desktop">
                 <div class="profile-menu-bar">
                     <button class="profile-buttons" onclick="openMenuDesktop('BookingsDesktop')">Bookings</button>
