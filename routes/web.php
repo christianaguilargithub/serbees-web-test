@@ -33,6 +33,9 @@ Route::get('/signup-client', 'App\Http\Controllers\PagesController@signupClient'
 
 Route::get('/', HomeController::class)->name('home');
 
+# Portal Routes
+Route::get('/internal', 'App\Http\Controllers\PortalController@portalPage')->name('portal');
+
 # Auth Routes
 Route::get('/login', [LoginController::class, 'index'])->name('login.index');
 Route::get('/register', [RegisterController::class, 'index'])->name('register.index');
