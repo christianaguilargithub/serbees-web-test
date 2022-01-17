@@ -1,0 +1,32 @@
+.portal-nav-container{
+    width: 200px;
+    height: 100vh;
+    background-color: #FEC128;
+}
+.portal-menu{
+    width: 150px;
+}
+
+.portal-menu-text{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: Roboto;
+    color: white;
+    font-weight: 500;
+}
+.portal-container{
+    display: flex;
+    flex-direction: row;
+}
+.ul-portal{
+    padding: 0px;
+}
+.portal-menu-image{
+    margin-left: 20px;
+}
+.portal-logo{
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
