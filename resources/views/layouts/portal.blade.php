@@ -27,19 +27,55 @@
             <div class="portal-nav-container">
                 <img src="{{ asset('images/white-logo.png') }}" alt="" class="portal-logo">
                     <ul class="ul-portal"> 
-                        <a href="" class="portal-menu"><li class="portal-menu-text"><img src="{{asset('images/dashboard.svg')}}" alt="" class="portal-menu-image"> Dashboard</li></a>
-                        <a href="" class="portal-menu"><li class="portal-menu-text"><img src="{{asset('images/clientDashboard.svg')}}" alt="" class="portal-menu-image"> Clients</li></a>
-              
+                        <div class="men"><span><img src="{{asset('images/dashboard.svg')}}" alt="" class="portal-menu-image"> Dashboard</span></div>
+                        <div class="men" href="{{ route('portal-client') }}"><span><img src="{{asset('images/clientDashboard.svg')}}" alt="" class="portal-menu-image"> Clients</span></div>
+                        <div class="men"><span><img src="{{asset('images/providerDashboard.svg')}}" alt="" class="portal-menu-image"> Providers</span></div>
+                        <div class="men"><span><img src="{{asset('images/serviceDashboard.svg')}}" alt="" class="portal-menu-image"> Services</span></div>
+                        <div class="men"><span><img src="{{asset('images/bookingDashboard.svg')}}" alt="" class="portal-menu-image"> Booking</span></div>
+                        <div class="men"><span><img src="{{asset('images/administratorDashboard.svg')}}" alt="" class="portal-menu-image"> Administrator</span></div>
+                        <div class="men"><span><img src="{{asset('images/settingsDashboard.svg')}}" alt="" class="portal-menu-image"> Settings</span></div>
+                        {{-- <a href="" class="portal-menu"><li class="portal-menu-text"><img src="{{asset('images/dashboard.svg')}}" alt="" class="portal-menu-image"> Dashboard</li></a>
+                        <a href="" class="portal-menu"><li class="portal-menu-text"></li></a>
                         <a href="" class="portal-menu"><li class="portal-menu-text"><img src="{{asset('images/providerDashboard.svg')}}" alt="" class="portal-menu-image"> Providers</li></a>
                         <a href="" class="portal-menu"><li class="portal-menu-text"><img src="{{asset('images/serviceDashboard.svg')}}" alt="" class="portal-menu-image"> Services</li></a>
                         <a href="" class="portal-menu"><li class="portal-menu-text"><img src="{{asset('images/bookingDashboard.svg')}}" alt="" class="portal-menu-image"> Booking</li></a>
                         <a href="" class="portal-menu"><li class="portal-menu-text"><img src="{{asset('images/administratorDashboard.svg')}}" alt="" class="portal-menu-image"> Administrator</li></a>
-                        <a href="" class="portal-menu"><li class="portal-menu-text"><img src="{{asset('images/settingsDashboard.svg')}}" alt="" class="portal-menu-image"> Settings</li></a>
+                        <a href="" class="portal-menu"><li class="portal-menu-text"><img src="{{asset('images/settingsDashboard.svg')}}" alt="" class="portal-menu-image"> Settings</li></a> --}}
                     </ul>
             </div>
             <div class="portal-content">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn"><img src="{{asset('images/providerDashboard.svg')}}" alt="">Sir Bee</button>
+                    <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    </div>
+                </div>
                 @yield('content')
-            </div>    
+            </div> 
         </div>
+        
+        <script>
+            /* When the user clicks on the button,
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+                }
+            }
+            }
+        </script>
     </body>
 </html>
