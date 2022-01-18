@@ -35,6 +35,7 @@ Route::get('/', HomeController::class)->name('home');
 
 # Portal Routes
 Route::get('/internal', 'App\Http\Controllers\PortalController@portalPage')->name('portal');
+Route::get('/internal/portal-client', 'App\Http\Controllers\PortalController@portalClientPage')->name('portal-client');
 
 # Auth Routes
 Route::get('/login', [LoginController::class, 'index'])->name('login.index');
