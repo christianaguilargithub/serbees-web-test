@@ -15,7 +15,10 @@ class PortalController extends Controller
     {
         return view('portal-pages.portal');
     }
-
+    public function portalClientPage()
+    {
+        return view('portal-pages.portal-client');
+    }
     /**
      * Show the form for creating a new resource.
      *
