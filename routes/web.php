@@ -34,8 +34,14 @@ Route::get('/signup-client', 'App\Http\Controllers\PagesController@signupClient'
 Route::get('/', HomeController::class)->name('home');
 
 # Portal Routes
-Route::get('/internal', 'App\Http\Controllers\PortalController@portalPage')->name('portal');
-Route::get('/internal/portal-client', 'App\Http\Controllers\PortalController@portalClientPage')->name('portal-client');
+Route::get('/internal', 'App\Http\Controllers\PortalController@portalPage')->name('portal-dashboard');
+Route::get('/internal/portal-client', 'App\Http\Controllers\PortalClientController@index')->name('portal-client');
+Route::get('/internal/portal-bookings', 'App\Http\Controllers\PortalBookingController@index')->name('portal-bookings');
+Route::get('/internal/portal-provider', 'App\Http\Controllers\PortalProviderController@index')->name('portal-provider');
+Route::get('/internal/portal-administrator', 'App\Http\Controllers\PortalAdministratorController@index')->name('portal-administrator');
+Route::get('/internal/portal-services', 'App\Http\Controllers\PortalServicesController@index')->name('portal-services');
+Route::get('/internal/portal-settings', 'App\Http\Controllers\PortalSettingsController@index')->name('portal-settings');
+
 
 # Auth Routes
 Route::get('/login', [LoginController::class, 'index'])->name('login.index');
