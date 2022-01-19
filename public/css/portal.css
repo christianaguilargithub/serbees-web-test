@@ -30,7 +30,7 @@
     margin-left: 20px;
     margin-top: 20px;
 }
-.men{
+.men a{
     width: 160px;
     height: 40px;
     cursor: pointer;
@@ -40,8 +40,9 @@
     font-family: Roboto;
     color: white;
     border-radius: 4px;
+    text-decoration: none;
 }
-.men:hover{
+.men a:hover{
     width: 160px;
     height: 40px;
     margin-left: 20px;
@@ -49,23 +50,23 @@
     background-color: black;
     cursor: pointer;
     border-radius: 4px;
+    text-decoration: none;
 }
 
 .portal-content{
     width: 100%;
-    background-color: tomato;
+    
 }
-
-
 /* Dropdown Button */
 .dropbtn {
     background-color: transparent;
-    color: white;
+    color: black;
     padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
-    margin-right: 200px;
+    margin-right:50px;
+    margin-top: 10px;
 }
 
   /* Dropdown button on hover & focus */
@@ -77,7 +78,7 @@
 .dropdown {
     position: relative;
     display: inline-block;
-    justify-self: flex-end;
+    float: right;
 }
 
   /* Dropdown Content (Hidden by Default) */
@@ -85,7 +86,7 @@
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: -160px;
+    min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
