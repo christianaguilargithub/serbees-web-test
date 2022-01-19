@@ -27,13 +27,13 @@
             <div class="portal-nav-container">
                 <img src="{{ asset('images/white-logo.png') }}" alt="" class="portal-logo">
                     <ul class="ul-portal"> 
-                        <div class="men"><span><img src="{{asset('images/dashboard.svg')}}" alt="" class="portal-menu-image"> Dashboard</span></div>
-                        <div class="men" href="{{ route('portal-client') }}"><span><img src="{{asset('images/clientDashboard.svg')}}" alt="" class="portal-menu-image"> Clients</span></div>
-                        <div class="men"><span><img src="{{asset('images/providerDashboard.svg')}}" alt="" class="portal-menu-image"> Providers</span></div>
-                        <div class="men"><span><img src="{{asset('images/serviceDashboard.svg')}}" alt="" class="portal-menu-image"> Services</span></div>
-                        <div class="men"><span><img src="{{asset('images/bookingDashboard.svg')}}" alt="" class="portal-menu-image"> Booking</span></div>
-                        <div class="men"><span><img src="{{asset('images/administratorDashboard.svg')}}" alt="" class="portal-menu-image"> Administrator</span></div>
-                        <div class="men"><span><img src="{{asset('images/settingsDashboard.svg')}}" alt="" class="portal-menu-image"> Settings</span></div>
+                        <div class="men"><a href="{{ route('portal-dashboard') }}"><span><img src="{{asset('images/dashboard.svg')}}" alt="" class="portal-menu-image"> Dashboard</span></a></div>
+                        <div class="men"><a href="{{ route('portal-client') }}"><span><img src="{{asset('images/clientDashboard.svg')}}" alt="" class="portal-menu-image"> Clients</span></a></div>
+                        <div class="men"><a href="{{ route('portal-provider') }}"><span><img src="{{asset('images/providerDashboard.svg')}}" alt="" class="portal-menu-image"> Providers</span></a></div>
+                        <div class="men"><a href="{{ route('portal-services') }}"><span><img src="{{asset('images/serviceDashboard.svg')}}" alt="" class="portal-menu-image"> Services</span></a></div>
+                        <div class="men"><a href="{{ route('portal-bookings') }}"><span><img src="{{asset('images/bookingDashboard.svg')}}" alt="" class="portal-menu-image"> Booking</span></a></div>
+                        <div class="men"><a href="{{ route('portal-administrator') }}"><span><img src="{{asset('images/administratorDashboard.svg')}}" alt="" class="portal-menu-image"> Administrator</span></a></div>
+                        <div class="men"><a href="{{ route('portal-settings') }}"><span><img src="{{asset('images/settingsDashboard.svg')}}" alt="" class="portal-menu-image"> Settings</span></a></div>
                         {{-- <a href="" class="portal-menu"><li class="portal-menu-text"><img src="{{asset('images/dashboard.svg')}}" alt="" class="portal-menu-image"> Dashboard</li></a>
                         <a href="" class="portal-menu"><li class="portal-menu-text"></li></a>
                         <a href="" class="portal-menu"><li class="portal-menu-text"><img src="{{asset('images/providerDashboard.svg')}}" alt="" class="portal-menu-image"> Providers</li></a>
