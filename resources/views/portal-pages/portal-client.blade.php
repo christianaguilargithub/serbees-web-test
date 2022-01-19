@@ -1,6 +1,8 @@
 @extends('layouts.portal')
 <link rel="stylesheet" href="{{ asset('css/portal-client.css') }}" type="text/css">
 @section('content')
+
+<div class="overall-portal-client">
     <div class="portal-client-container">
         <div class="client-status">
             <div class="total-client">
@@ -34,7 +36,102 @@
                 <input data-provide="typeahead" data-items="4"  type="text" class="search-query">
             </div>
         </div>
-        
+        <div class="client-list">
+            <table id="customers" cellspacing="0" cellpadding="0">
+                <tr style="border: 1px solid #ddd;">
+                  
+                  <th>ID</th>
+                  <th>Name</th>
+                  <th>Email Address</th>
+                  <th>Mobile Number</th>
+                  <th>Status</th>
+                  <th>Action</th>
+                  
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Maria Anders</td>
+                  <td>mariaanders@email.com</td>
+                  <td>09051234567</td>
+                  <td><button class="btn btn-success">Active Account</button></td>
+                  <td><a href="">View details</a></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Christina Berglund</td>
+                  <td>mariaanders@email.com</td>
+                  <td>09051234567</td>
+                  <td><button class="btn btn-danger">Inactive Account</button></td>
+                  <td><a href="">View details</a></td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Francisco Chang</td>
+                  <td>mariaanders@email.com</td>
+                  <td>09051234567</td>
+                  <td><button class="btn btn-success">Active Account</button></td>
+                  <td><a href="">View details</a></td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Roland Mendel</td>
+                  <td>mariaanders@email.com</td>
+                  <td>09051234567</td>
+                  <td><button class="btn btn-success">Active Account</button></td>
+                  <td><a href="">View details</a></td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Helen Bennett</td>
+                  <td>mariaanders@email.com</td>
+                  <td>09051234567</td>
+                  <td><button class="btn btn-success">Active Account</button></td>
+                  <td><a href="">View details</a></td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Philip Cramer</td>
+                  <td>mariaanders@email.com</td>
+                  <td>09051234567</td>
+                  <td><button class="btn btn-success">Active Account</button></td>
+                  <td><a href="">View details</a></td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>Yoshi Tannamuri</td>
+                  <td>mariaanders@email.com</td>
+                  <td>09051234567</td>
+                  <td><button class="btn btn-success">Active Account</button></td>
+                  <td><a href="">View details</a></td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>Giovanni Rovelli</td>
+                  <td>mariaanders@email.com</td>
+                  <td>09051234567</td>
+                  <td><button class="btn btn-success">Active Account</button></td>
+                  <td><a href="">View details</a></td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>Simon Crowther</td>
+                  <td>mariaanders@email.com</td>
+                  <td>09051234567</td>
+                  <td><button class="btn btn-success">  Active  Account</button></td>
+                  <td><a href="">View details</a></td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>Marie Bertrand</td>
+                  <td>mariaanders@email.com</td>
+                  <td>09051234567</td>
+                  <td><button class="btn btn-success">Active Account</button></td>
+                  <td><a href="">View details</a></td>
+                </tr>
+              </table>
+        </div>
     </div>
+</div>
+   
 @endsection
 
