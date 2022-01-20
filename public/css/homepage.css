@@ -378,30 +378,30 @@
         /* This bit sets up the horizontal layout */
         display:flex;
         flex-direction:row;
-         border-radius: 4px;
-         width: 90%;
-         height: 60px;
-         border: 1px solid #E5E5E5;
-         margin-left: auto;
+        border-radius: 4px;
+        width: 90%;
+        height: 60px;
+        border: 1px solid #E5E5E5;
+        margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
     background-color: #FFFFFF;
-      }
-      
-      input {
+    }
+    
+    input {
         
         /* Tell the input to use all the available space */
         flex-grow:2;
         /* And hide the input's outline, so the form looks like the outline */
         border:none;
-      }
-      
-      input:focus {
+    }
+    
+    input:focus {
         /* removing the input focus blue box. Put this on the form if you like. */
         outline: none;
-      }
-      
-      button {
+    }
+    
+    button {
         /* Just a little styling to make it pretty */
         border:1px solid #1E90FF;
         background:#1E90FF;
