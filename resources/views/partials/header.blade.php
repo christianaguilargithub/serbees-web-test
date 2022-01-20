@@ -26,21 +26,21 @@
                             aria-labelledby="dropdownMenuButton">
                             <li class="dropdown-item" style="cursor:pointer">
                                 <img src=
-                                     "{{asset('images/google-logo.png')}}"
-                                     width="20" height="15">  Android Serbees Client App</li>
+                                    "{{asset('images/google-logo.png')}}"
+                                    width="20" height="15">  Android Serbees Client App</li>
                             <li class="dropdown-item" style="cursor:pointer">
                                 <img src=
-                                     "{{asset('images/apple-logo.png')}}"
-                                     width="20" height="17">  IOS Serbees Provider App</li>
+                                    "{{asset('images/apple-logo.png')}}"
+                                    width="20" height="17">  IOS Serbees Provider App</li>
                             <div style="border-bottom:2px solid grey;margin-top:3px"></div>
                             <li class="dropdown-item" style="cursor:pointer">
                                 <img src=
-                                     "{{asset('images/google-logo.png')}}"
-                                     width="20" height="15">  Android Serbees Provider App</li>
+                                    "{{asset('images/google-logo.png')}}"
+                                    width="20" height="15">  Android Serbees Provider App</li>
                             <li class="dropdown-item" style="cursor:pointer">
                                 <img src=
-                                     "{{asset('images/apple-logo.png')}}"
-                                     width="20" height="17">  IOS Serbees Provider App</li>
+                                    "{{asset('images/apple-logo.png')}}"
+                                    width="20" height="17">  IOS Serbees Provider App</li>
                         </ul>
                     </div>
                     <li><a class="aa"href="{{ route('register.index') }}">BE A PROVIDER</a></li>
