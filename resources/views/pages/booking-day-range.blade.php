@@ -194,7 +194,6 @@
         </div>
     </form>
 </div>
-
 <div class="footer-container">
         <div class="footer-top">
             <div class="allignment">
