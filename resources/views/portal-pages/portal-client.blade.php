@@ -19,8 +19,8 @@
         <div class="client-list-menu">
             <div class="client-list-number-sort-container">
                 <label for="numberSelect">Show </label>
-                <select name="numberSelect" id="numberSelect">
-                    <option value="1">1</option>
+                <select class="select-box" name="numberSelect" id="numberSelect">
+                    <option style="width:60px" value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
@@ -38,22 +38,20 @@
         </div>
         <div class="client-list">
             <table id="customers" cellspacing="0" cellpadding="0">
-                <tr style="border: 1px solid #ddd;">
-                  
+                <tr style="border-bottom: 1px solid #ddd;">
                   <th>ID</th>
                   <th>Name</th>
                   <th>Email Address</th>
                   <th>Mobile Number</th>
                   <th>Status</th>
                   <th>Action</th>
-                  
                 </tr>
                 <tr>
                   <td>1</td>
                   <td>Maria Anders</td>
                   <td>mariaanders@email.com</td>
                   <td>09051234567</td>
-                  <td><button class="btn btn-success">Active Account</button></td>
+                  <td><div class="status-box-active">Active Account</div></td>
                   <td><a href="">View details</a></td>
                 </tr>
                 <tr>
@@ -61,7 +59,7 @@
                   <td>Christina Berglund</td>
                   <td>mariaanders@email.com</td>
                   <td>09051234567</td>
-                  <td><button class="btn btn-danger">Inactive Account</button></td>
+                  <td><div class="status-box-inactive">Inactive Account</div></td>
                   <td><a href="">View details</a></td>
                 </tr>
                 <tr>
@@ -69,7 +67,7 @@
                   <td>Francisco Chang</td>
                   <td>mariaanders@email.com</td>
                   <td>09051234567</td>
-                  <td><button class="btn btn-success">Active Account</button></td>
+                  <td><div class="status-box-active">Active Account</div></td>
                   <td><a href="">View details</a></td>
                 </tr>
                 <tr>
@@ -77,7 +75,7 @@
                   <td>Roland Mendel</td>
                   <td>mariaanders@email.com</td>
                   <td>09051234567</td>
-                  <td><button class="btn btn-success">Active Account</button></td>
+                  <td><div class="status-box-active">Active Account</div></td>
                   <td><a href="">View details</a></td>
                 </tr>
                 <tr>
@@ -85,7 +83,7 @@
                   <td>Helen Bennett</td>
                   <td>mariaanders@email.com</td>
                   <td>09051234567</td>
-                  <td><button class="btn btn-success">Active Account</button></td>
+                  <td><div class="status-box-active">Active Account</div></td>
                   <td><a href="">View details</a></td>
                 </tr>
                 <tr>
@@ -93,7 +91,7 @@
                   <td>Philip Cramer</td>
                   <td>mariaanders@email.com</td>
                   <td>09051234567</td>
-                  <td><button class="btn btn-success">Active Account</button></td>
+                  <td><div class="status-box-active">Active Account</div></td>
                   <td><a href="">View details</a></td>
                 </tr>
                 <tr>
@@ -101,7 +99,7 @@
                   <td>Yoshi Tannamuri</td>
                   <td>mariaanders@email.com</td>
                   <td>09051234567</td>
-                  <td><button class="btn btn-success">Active Account</button></td>
+                  <td><div class="status-box-active">Active Account</div></td>
                   <td><a href="">View details</a></td>
                 </tr>
                 <tr>
@@ -109,7 +107,7 @@
                   <td>Giovanni Rovelli</td>
                   <td>mariaanders@email.com</td>
                   <td>09051234567</td>
-                  <td><button class="btn btn-success">Active Account</button></td>
+                  <td><div class="status-box-active">Active Account</div></td>
                   <td><a href="">View details</a></td>
                 </tr>
                 <tr>
@@ -117,7 +115,7 @@
                   <td>Simon Crowther</td>
                   <td>mariaanders@email.com</td>
                   <td>09051234567</td>
-                  <td><button class="btn btn-success">  Active  Account</button></td>
+                  <td><div class="status-box-active">Active Account</div></td>
                   <td><a href="">View details</a></td>
                 </tr>
                 <tr>
@@ -125,13 +123,12 @@
                   <td>Marie Bertrand</td>
                   <td>mariaanders@email.com</td>
                   <td>09051234567</td>
-                  <td><button class="btn btn-success">Active Account</button></td>
+                  <td><div class="status-box-active">Active Account</div></td>
                   <td><a href="">View details</a></td>
                 </tr>
               </table>
         </div>
     </div>
 </div>
-   
 @endsection
 
