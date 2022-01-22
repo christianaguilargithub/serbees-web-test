@@ -52,7 +52,9 @@
                     <a href="#">Link 3</a>
                     </div>
                 </div>
-                @yield('content')
+                <div class="portal-content-2">
+                    @yield('content')
+                </div>
             </div> 
         </div>
         
