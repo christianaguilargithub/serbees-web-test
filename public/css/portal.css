@@ -72,6 +72,7 @@
     cursor: pointer;
     margin-right:50px;
     margin-top: 10px;
+   
 }
 
   /* Dropdown button on hover & focus */
@@ -83,6 +84,7 @@
 .dropdown {
     position: relative;
     /* display: inline-block; */
+    
     float: right;
 }
 
