@@ -3,7 +3,9 @@
 @section('content')
 
 <div class="overall-portal-client">
-    <div class="portal-client-container">
+    
+    <div class="client-list-container">
+      <div class="portal-client-container">
         <div class="client-status">
             <div class="total-client">
                 <p class="portal-client-status">Total Clients</p>
@@ -13,9 +15,9 @@
                 <p class="portal-client-status">Registered Today</p>
                 <p class="portal-client-status-count">20</p>
             </div>
+            
         </div>
     </div>
-    <div class="client-list-container">
         <div class="client-list-menu">
             <div class="client-list-number-sort-container">
                 <label for="numberSelect">Show </label>
@@ -48,7 +50,7 @@
                 </tr>
                 <tr>
                   <td>1</td>
-                  <td>Maria Anders</td>
+                  <td>Christina Berglund</td>
                   <td>mariaanders@email.com</td>
                   <td>09051234567</td>
                   <td><div class="status-box-active">Active Account</div></td>
