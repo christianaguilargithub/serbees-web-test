@@ -46,11 +46,10 @@
            
             <div class="portal-content">
                 <div class="dropdown">
-                    <button onclick="myFunction()" class="dropbtn"><img src="{{asset('images/providerDashboard.svg')}}" alt="">Sir Bee</button>
+                    <button onclick="myFunction()" class="dropbtn"><img class="user-portal-pic" src="{{asset('images/serbee.png')}}" alt="">Sir Bee<img class="user-portal-pic2" src="{{asset('images/downsign.png')}}" alt=""></button>
                     <div id="myDropdown" class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+                    <a href="#">Account</a>
+                    <a href="#">Log Out</a>
                     </div>
                 </div>
                 <div class="portal-content-2">
