@@ -43,6 +43,7 @@
                         <a href="" class="portal-menu"><li class="portal-menu-text"><img src="{{asset('images/settingsDashboard.svg')}}" alt="" class="portal-menu-image"> Settings</li></a> --}}
                     </ul>
             </div>
+           
             <div class="portal-content">
                 <div class="dropdown">
                     <button onclick="myFunction()" class="dropbtn"><img src="{{asset('images/providerDashboard.svg')}}" alt="">Sir Bee</button>
@@ -56,7 +57,9 @@
                     @yield('content')
                 </div>
             </div> 
+            
         </div>
+        
         
         <script>
             /* When the user clicks on the button,
