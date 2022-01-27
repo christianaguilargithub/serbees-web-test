@@ -54,7 +54,11 @@
                   <td>mariaanders@email.com</td>
                   <td>09051234567</td>
                   <td><div class="status-box-active">Active Account</div></td>
-                  <td><a href="">View details</a></td>
+                  <td><a href="">View details</a>
+                  
+                  
+                  
+                  </td>
                 </tr>
                 <tr>
                   <td>2</td>
@@ -132,5 +136,32 @@
         </div>
     </div>
 </div>
+
+
+<button id="open2">
+  click me please
+</button>
+
+<div class="modal-container2" id="modal_container2">
+  <div class="modal2">
+    <h1>Modals are cool</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores architecto voluptatum corporis suscipit? At tempore voluptatum eaque neque animi? Recusandae neque dolorem, praesentium ullam numquam sint id provident ea quisquam.</p>
+    <button id="close2" >Close me</button>
+  </div>
+</div>
+
+<script>
+  const open2 = document.getElementById('open2');
+  const modal_container2 = document.getElementById('modal_container2');
+  const close2 = document.getElementById('close2');
+
+  open2.addEventListener('click', () => {
+    modal_container2.classList.add('show');
+  })
+
+  close2.addEventListener('click', () => {
+    modal_container2.classList.remove('show');
+  })
+</script>
 @endsection
 
