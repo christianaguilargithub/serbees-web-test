@@ -55,9 +55,6 @@
                   <td>09051234567</td>
                   <td><div class="status-box-active">Active Account</div></td>
                   <td><a href="">View details</a>
-                  
-                  
-                  
                   </td>
                 </tr>
                 <tr>
