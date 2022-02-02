@@ -38,6 +38,7 @@ Route::get('/internal', 'App\Http\Controllers\PortalController@portalPage')->nam
 Route::get('/internal/portal-client', 'App\Http\Controllers\PortalClientController@index')->name('portal-client');
 Route::get('/internal/portal-bookings', 'App\Http\Controllers\PortalBookingController@index')->name('portal-bookings');
 Route::get('/internal/portal-provider', 'App\Http\Controllers\PortalProviderController@index')->name('portal-provider');
+Route::get('/internal/portal-provider-list', 'App\Http\Controllers\PortalProviderListController@index')->name('portal-provider-list');
 Route::get('/internal/portal-administrator', 'App\Http\Controllers\PortalAdministratorController@index')->name('portal-administrator');
 Route::get('/internal/portal-services', 'App\Http\Controllers\PortalServicesController@index')->name('portal-services');
 Route::get('/internal/portal-settings', 'App\Http\Controllers\PortalSettingsController@index')->name('portal-settings');
