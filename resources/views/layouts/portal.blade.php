@@ -29,7 +29,12 @@
                     <ul class="ul-portal"> 
                         <div class="men"><a href="{{ route('portal-dashboard') }}"><span><img src="{{asset('images/dashboard.svg')}}" alt="" class="portal-menu-image"> Dashboard</span></a></div>
                         <div class="men"><a href="{{ route('portal-client') }}"><span><img src="{{asset('images/clientDashboard.svg')}}" alt="" class="portal-menu-image"> Clients</span></a></div>
-                        <div class="men"><a href="{{ route('portal-provider') }}"><span><img src="{{asset('images/providerDashboard.svg')}}" alt="" class="portal-menu-image"> Providers</span></a></div>
+                        <div class="accordion"><span><img src="{{asset('images/providerDashboard.svg')}}" alt="" class="portal-menu-image"> Providers</span></div>
+                        <div class="panel">
+                            <a href="{{ route('portal-provider') }}"><span>Provider Registration</span></a>
+                            <a href="{{ route('portal-provider-list') }}"><span>Provider List</span></a>
+                        </div>
+                            
                         <div class="men"><a href="{{ route('portal-services') }}"><span><img src="{{asset('images/serviceDashboard.svg')}}" alt="" class="portal-menu-image"> Services</span></a></div>
                         <div class="men"><a href="{{ route('portal-bookings') }}"><span><img src="{{asset('images/bookingDashboard.svg')}}" alt="" class="portal-menu-image"> Booking</span></a></div>
                         <div class="men"><a href="{{ route('portal-administrator') }}"><span><img src="{{asset('images/administratorDashboard.svg')}}" alt="" class="portal-menu-image"> Administrator</span></a></div>
@@ -79,6 +84,26 @@
                 }
                 }
             }
+            }
+
+
+
+
+
+
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+                } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+                } 
+            });
             }
         </script>
     </body>
