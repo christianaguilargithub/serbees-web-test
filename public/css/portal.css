@@ -69,7 +69,6 @@
     width: 1200px;
     height: 700px;
     margin-left: 30px;
- 
 }
 /* Dropdown Button */
 .dropbtn {
@@ -126,3 +125,99 @@
 
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+
+
+
+
+
+
+.accordion {
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+    display: block;
+    padding-top: 10px;
+    margin-left: 20px;
+    font-family: Roboto;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: transparent;
+    /* background-color: transparent;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px; */
+    transition: 0.4s;
+  }
+
+  .accordion a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .active, .accordion:hover {
+    background-color: transparent;
+    width: 160px;
+    height: 40px;
+    margin-left: 20px;
+    padding-top: 10px;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    /* margin-left: 5px; */
+    padding-right: 10px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    display: flex;
+    flex-direction: column;
+    padding: 0 18px;
+    background-color: transparent;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+
+  .panel a{
+    font-family: Roboto;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 30px;
+    width: 160px;
+    height: 40px;
+  }
+  .panel a:hover{
+    font-family: Roboto;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 30px;
+    background-color: #1E90FF;
+    border-radius: 4px;
+    width: 170px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 5px;
+  }
+
+ 
