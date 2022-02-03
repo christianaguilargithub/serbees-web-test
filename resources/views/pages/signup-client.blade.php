@@ -40,11 +40,12 @@
                         <input type="text" id="mobile" placeholder="  Mobile Number" class="gender-input input-border">
                     </div>
                     <div class="name-inputs-containers">
-                        <input type="text" id="password" data-toggle="datepicker" placeholder="  Password" class="date-input input-border" autocomplete="off">
-                        <input type="text" id="passwordConfirm" placeholder="  Confirm Password" class="gender-input input-border">
+                        <input type="password" id="password"  placeholder="  Password" class="date-input input-border " autocomplete="off">
+                        <input type="password" id="passwordConfirm" placeholder="  Confirm Password" class="gender-input input-border ">
                     </div>
+                    <span style="font-family: Roboto;padding-bottom: 20px;margin-top:-20px; font-size:14px;"><input style="margin-bottom:3px;margin-right:5px; border-radius:4px;" type="checkbox" onclick="myFunction()">Show Password</span>
                     <label class="terms-and-conditions" for="agreement">
-                    <input type="checkbox" name="agreement" id="agreement">
+                    <input style="margin-bottom:3px;margin-right:5px; border-radius:4px;" type="checkbox" name="agreement" id="agreement">
                         By signing in, you agree and accept our <a class="terms-and-conditions-link" href="#    " target="_blank">terms and conditions</a>
                     </label>
                     <div>
@@ -54,4 +55,20 @@
             </div>
         </form>
     </div>
+    <script>
+       function myFunction() {
+            var x = document.getElementById("password");
+            var z = document.getElementById("passwordConfirm");
+            if (x.type === "password" || z.type === "passwordConfirm") {
+                x.type = "text";
+                z.type = "text"
+            } else {
+                x.type = "password";
+                z.type = "password";
+                
+            }
+        }
+   
+        
+    </script>
 </x-guest-layout>
