@@ -49,7 +49,7 @@
                         Enter your account credential
                     </div>
                     <div class="date-gender-container">
-                        <input type="text" id="email" data-toggle="datepicker" placeholder="  Email Address" class="date-input input-border" autocomplete="off">
+                        <input type="text" id="email" data-toggle="datepicker" placeholder="  Email Address" class="date-input input-border myInput" autocomplete="off">
                         <input type="text" id="mobile" placeholder="  Mobile Number" class="gender-input input-border">
                     </div>
                     <div class="date-gender-container">
@@ -95,4 +95,15 @@
             </div>
         </form>
     </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementsByClassName("myInput");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+       
+    </script>
 </x-guest-layout>
