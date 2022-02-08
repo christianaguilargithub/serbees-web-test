@@ -21,41 +21,42 @@
                         Enter your name
                     </div>
                     <div class="name-inputs-containers">
-                        <input type="text" id="firstName" placeholder="  First Name" class="name-inputs input-border">
-                        <input type="text" id="middleName" placeholder="  Middle Name" class="name-inputs input-border">
-                        <input type="text" id="lastName" placeholder="  Last Name" class="name-inputs input-border">
+                        <input type="text" id="firstName" placeholder="First Name" class="name-inputs input-border">
+                        <input type="text" id="middleName" placeholder="Middle Name" class="name-inputs input-border">
+                        <input type="text" id="lastName" placeholder="Last Name" class="name-inputs input-border">
                     </div>
                     <div class="name-label">
                         Enter your date of birth and gender
                     </div>
                     <div class="date-gender-container">
                         <!-- <input type="date" id="dateOfBirth" placeholder="  Date of Birth" class="date-input input-border" autocomplete="off"> -->
-                        <input type="text" placeholder=" Date of birth" onfocus="(this.type='date')" class="date-input input-border">
-                        <input type="text" id="gender" placeholder="  Gender" class="gender-input input-border">
+                        <input type="text" placeholder="Date of birth" onfocus="(this.type='date')" class="date-input input-border">
+                        <input type="text" id="gender" placeholder="Gender" class="gender-input input-border">
                     </div>
                     <div class="name-label">
                         Enter your address
                     </div>
                     <div class="address-inputs-container">
-                        <input type="text" id="region" placeholder="  Region" class="name-inputs input-border">
-                        <input type="text" id="province" placeholder="  Province" class="name-inputs input-border">
-                        <input type="text" id="city" placeholder="  City" class="name-inputs input-border">
+                        <input type="text" id="region" placeholder="Region" class="name-inputs input-border">
+                        <input type="text" id="province" placeholder="Province" class="name-inputs input-border">
+                        <input type="text" id="city" placeholder="City" class="name-inputs input-border">
                     </div>
                     <div class="address-inputs-container">
-                        <input type="text" id="barangay" placeholder="  Barangay" class="name-inputs input-border">
-                        <input type="text" id="detailedAddress" placeholder="  Blk / Lot / House No / Bldg / Street No" class="detailed-address-input input-border">
+                        <input type="text" id="barangay" placeholder="Barangay" class="name-inputs input-border">
+                        <input type="text" id="detailedAddress" placeholder="Blk / Lot / House No / Bldg / Street No" class="detailed-address-input input-border">
                     </div>
                     <div class="name-label">
                         Enter your account credential
                     </div>
                     <div class="date-gender-container">
-                        <input type="text" id="email" data-toggle="datepicker" placeholder="  Email Address" class="date-input input-border myInput" autocomplete="off">
-                        <input type="text" id="mobile" placeholder="  Mobile Number" class="gender-input input-border">
+                        <input type="text" id="email" data-toggle="datepicker" placeholder="Email Address" class="date-input input-border myInput" autocomplete="off">
+                        <input type="text" id="mobile" placeholder="Mobile Number" class="gender-input input-border">
                     </div>
                     <div class="date-gender-container">
-                        <input type="text" id="password" data-toggle="datepicker" placeholder="  Password" class="date-input input-border" autocomplete="off">
-                        <input type="text" id="passwordConfirm" placeholder="  Confirm Password" class="gender-input input-border">
+                        <input type="password" id="password"  placeholder="Password" class="date-input input-border" autocomplete="off">
+                        <input type="password" id="passwordConfirm" placeholder="Confirm Password" class="gender-input input-border">
                     </div>
+                    <span style="font-family: Roboto;padding-bottom: 30px;margin-top:-20px; font-size:16px; font-weight: 500; color:#6A6A6A;"><input style="margin-bottom:3px;margin-right:5px; border-radius:4px;cursor:pointer;" type="checkbox" onclick="myFunction()">Show Password</span>
                     <div class="name-label">
                         Choose what type of service you would like to offer
                     </div>
@@ -85,7 +86,7 @@
                     Please provide the correct user id of the service provider who invited you to register
                     </div>
                     <label class="terms-and-conditions" for="agreement">
-                    <input type="checkbox" name="agreement" id="agreement">
+                    <input type="checkbox" name="agreement" id="agreement" style="cursor:pointer">
                         By signing in, you agree and accept our <a class="terms-and-conditions-link" href="#    " target="_blank">terms and conditions</a>
                     </label>
                     <div>
@@ -97,13 +98,15 @@
     </div>
     <script>
         function myFunction() {
-            var x = document.getElementsByClassName("myInput");
-            if (x.type === "password") {
+            var x = document.getElementById("password");
+            var z = document.getElementById("passwordConfirm");
+            if (x.type === "password" || z.type === "passwordConfirm") {
                 x.type = "text";
+                z.type = "text"
             } else {
                 x.type = "password";
+                z.type = "password";
             }
         }
-       
-    </script>
+     </script>
 </x-guest-layout>
