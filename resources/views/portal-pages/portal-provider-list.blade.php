@@ -104,6 +104,7 @@
                   <th>Name</th>
                   <th>Service</th>
                   <th>Mobile Number</th>
+                  <th>City</th>
                   <th>Status</th>
                   <th>Action</th>
                 </tr>
@@ -112,6 +113,7 @@
                   <td>Maria Anders</td>
                   <td>Aircon Cleaning and Repair</td>
                   <td>09051234567</td>
+                  <td>Makati City</td>
                   <td><div class="status-box-pending">Pending Payment</div></td>
                   <td><p id="open1">View details</p></td>
                 </tr>
@@ -120,6 +122,7 @@
                   <td>Christina Berglund</td>
                   <td>Aircon Cleaning and Repair</td>
                   <td>09051234567</td>
+                  <td>Makati City</td>
                   <td><div class="status-box-approved">Paid</div></td>
                   <td><p id="open2">View details</p></td>
                 </tr>
@@ -128,6 +131,7 @@
                   <td>Francisco Chang</td>
                   <td>Aircon Cleaning and Repair</td>
                   <td>09051234567</td>
+                  <td>Makati City</td>
                   <td><div class="status-box-pending">Pending Payment</div></td>
                   <td><p id="open3">View details</p></td>
                 </tr>
@@ -136,6 +140,7 @@
                   <td>Roland Mendel</td>
                   <td>Aircon Cleaning and Repair</td>
                   <td>09051234567</td>
+                  <td>Makati City</td>
                   <td><div class="status-box-pending">Pending Payment</div></td>
                   <td><p id="open4">View details</p></td>
                 </tr>
@@ -144,6 +149,7 @@
                   <td>Helen Bennett</td>
                   <td>Aircon Cleaning and Repair</td>
                   <td>09051234567</td>
+                  <td>Makati City</td>
                   <td><div class="status-box-pending">Pending Payment</div></td>
                   <td><p id="open5">View details</p></td>
                 </tr>
@@ -152,6 +158,7 @@
                   <td>Philip Cramer</td>
                   <td>Aircon Cleaning and Repair</td>
                   <td>09051234567</td>
+                  <td>Makati City</td>
                   <td><div class="status-box-pending">Pending Payment</div></td>
                   <td><p id="open6">View details</p></td>
                 </tr>
@@ -160,6 +167,7 @@
                   <td>Yoshi Tannamuri</td>
                   <td>Aircon Cleaning and Repair</td>
                   <td>09051234567</td>
+                  <td>Makati City</td>
                   <td><div class="status-box-pending">Pending Payment</div></td>
                   <td><p id="open7">View details</p></td>
                 </tr>
@@ -168,6 +176,7 @@
                   <td>Giovanni Rovelli</td>
                   <td>Aircon Cleaning and Repair</td>
                   <td>09051234567</td>
+                  <td>Makati City</td>
                   <td><div class="status-box-pending">Pending Payment</div></td>
                   <td><p id="open8">View details</p></td>
                 </tr>
@@ -176,6 +185,7 @@
                   <td>Simon Crowther</td>
                   <td>Aircon Cleaning and Repair</td>
                   <td>09051234567</td>
+                  <td>Makati City</td>
                   <td><div class="status-box-pending">Pending Payment</div></td>
                   <td><p id="open9">View details</p></td>
                 </tr>
@@ -184,6 +194,7 @@
                   <td>Marie Bertrand</td>
                   <td>Aircon Cleaning and Repair</td>
                   <td>09051234567</td>
+                  <td>Makati City</td>
                   <td><div class="status-box-pending">Pending Payment</div></td>
                   <td><p id="open10">View details</p></td>
                 </tr>
