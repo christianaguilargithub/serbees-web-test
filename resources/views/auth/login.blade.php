@@ -24,7 +24,7 @@
                 </label>
                 <input type="password" name="password" id="myInput" placeholder="Password" class="login-input" >
                 <br>
-                <span style="font-family: Roboto; font-weight:700;padding-bottom: 20px;margin-top:-20px;"><input style="margin-bottom:3px;margin-right:5px; border-radius:4px;"type="checkbox" onclick="myFunction()">Show Password</span>
+                <span style="font-family: Roboto; font-weight:700;padding-bottom: 20px;margin-top:-20px;"><input style="margin-bottom:3px;margin-right:5px; border-radius:4px;cursor:pointer;"type="checkbox" onclick="myFunction()">Show Password</span>
                 <input type="submit" name="log" id="log" value="Log In" style="width: 150px;font-family:roboto; border-radius:10px;color:white;background-color:#1E90FF;box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
                 backdrop-filter: blur( 4px );
                 -webkit-backdrop-filter: blur( 4px ); margin-left:auto;margin-right:auto;">
@@ -33,7 +33,7 @@
                 backdrop-filter: blur( 4px );
                 -webkit-backdrop-filter: blur( 4px ); margin-left:auto;margin-right:auto;">
                 <br>
-                <span style="font-family: Roboto; font-weight:700"><input type="checkbox" id="check" style="margin-bottom:3px;margin-right:5px; border-radius:4px;">Remember me</span>
+                <span style="font-family: Roboto; font-weight:700"><input type="checkbox" id="check" style="margin-bottom:3px;margin-right:5px; border-radius:4px;cursor:pointer;">Remember me</span>
                 <br>
                 <span style="font-family: Roboto; font-weight:700">Forgot <a href="#">Password</a></span>
                 <br>
