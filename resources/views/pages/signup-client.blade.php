@@ -43,9 +43,9 @@
                         <input type="password" id="password"  placeholder="  Password" class="date-input input-border " autocomplete="off">
                         <input type="password" id="passwordConfirm" placeholder="  Confirm Password" class="gender-input input-border ">
                     </div>
-                    <span style="font-family: Roboto;padding-bottom: 20px;margin-top:-20px; font-size:14px;"><input style="margin-bottom:3px;margin-right:5px; border-radius:4px;" type="checkbox" onclick="myFunction()">Show Password</span>
+                    <span style="font-family: Roboto;padding-bottom: 20px;margin-top:-20px; font-size:14px;"><input style="margin-bottom:3px;margin-right:5px; border-radius:4px;cursor:pointer;" type="checkbox" onclick="myFunction()">Show Password</span>
                     <label class="terms-and-conditions" for="agreement">
-                    <input style="margin-bottom:3px;margin-right:5px; border-radius:4px;" type="checkbox" name="agreement" id="agreement">
+                    <input style="margin-bottom:3px;margin-right:5px; border-radius:4px;cursor:pointer" type="checkbox" name="agreement" id="agreement">
                         By signing in, you agree and accept our <a class="terms-and-conditions-link" href="#    " target="_blank">terms and conditions</a>
                     </label>
                     <div>
